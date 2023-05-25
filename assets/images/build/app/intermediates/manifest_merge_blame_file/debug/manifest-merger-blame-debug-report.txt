@@ -1,0 +1,237 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.notfications_local"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\android\app\src\debug\AndroidManifest.xml:6:5-66
+15-->C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\android\app\src\debug\AndroidManifest.xml:6:22-64
+16    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+16-->C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\android\app\src\main\AndroidManifest.xml:2:5-79
+16-->C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\android\app\src\main\AndroidManifest.xml:2:22-76
+17    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+17-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-77
+17-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-74
+18    <uses-permission android:name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS" />
+18-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-89
+18-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-86
+19    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+19-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-81
+19-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-78
+20    <uses-permission android:name="android.permission.VIBRATE" /> <!-- for android -->
+20-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-66
+20-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:12:22-63
+21    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+22    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+23    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+24    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+25    <!-- for Samsung -->
+26    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+26-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\AnasXMahde\.gradle\caches\transforms-3\b0389fa7cbcb973eb70356eb385c55ee\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:5-86
+26-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\AnasXMahde\.gradle\caches\transforms-3\b0389fa7cbcb973eb70356eb385c55ee\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:22-83
+27    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+27-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\AnasXMahde\.gradle\caches\transforms-3\b0389fa7cbcb973eb70356eb385c55ee\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:5-87
+27-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\AnasXMahde\.gradle\caches\transforms-3\b0389fa7cbcb973eb70356eb385c55ee\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:22-84
+28    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+28-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\AnasXMahde\.gradle\caches\transforms-3\b0389fa7cbcb973eb70356eb385c55ee\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:5-81
+28-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\AnasXMahde\.gradle\caches\transforms-3\b0389fa7cbcb973eb70356eb385c55ee\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:22-78
+29    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+29-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\AnasXMahde\.gradle\caches\transforms-3\b0389fa7cbcb973eb70356eb385c55ee\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:5-83
+29-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\AnasXMahde\.gradle\caches\transforms-3\b0389fa7cbcb973eb70356eb385c55ee\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:22-80
+30    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+30-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\AnasXMahde\.gradle\caches\transforms-3\b0389fa7cbcb973eb70356eb385c55ee\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:5-88
+30-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\AnasXMahde\.gradle\caches\transforms-3\b0389fa7cbcb973eb70356eb385c55ee\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:22-85
+31    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+31-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\AnasXMahde\.gradle\caches\transforms-3\b0389fa7cbcb973eb70356eb385c55ee\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:5-92
+31-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\AnasXMahde\.gradle\caches\transforms-3\b0389fa7cbcb973eb70356eb385c55ee\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:22-89
+32    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+32-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\AnasXMahde\.gradle\caches\transforms-3\b0389fa7cbcb973eb70356eb385c55ee\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:5-84
+32-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\AnasXMahde\.gradle\caches\transforms-3\b0389fa7cbcb973eb70356eb385c55ee\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:22-81
+33    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+33-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\AnasXMahde\.gradle\caches\transforms-3\b0389fa7cbcb973eb70356eb385c55ee\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:5-83
+33-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\AnasXMahde\.gradle\caches\transforms-3\b0389fa7cbcb973eb70356eb385c55ee\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:22-80
+34    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+34-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\AnasXMahde\.gradle\caches\transforms-3\b0389fa7cbcb973eb70356eb385c55ee\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:5-91
+34-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\AnasXMahde\.gradle\caches\transforms-3\b0389fa7cbcb973eb70356eb385c55ee\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:22-88
+35    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+35-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\AnasXMahde\.gradle\caches\transforms-3\b0389fa7cbcb973eb70356eb385c55ee\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:5-92
+35-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\AnasXMahde\.gradle\caches\transforms-3\b0389fa7cbcb973eb70356eb385c55ee\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:22-89
+36    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+36-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\AnasXMahde\.gradle\caches\transforms-3\b0389fa7cbcb973eb70356eb385c55ee\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:5-93
+36-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\AnasXMahde\.gradle\caches\transforms-3\b0389fa7cbcb973eb70356eb385c55ee\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:22-90
+37    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+37-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\AnasXMahde\.gradle\caches\transforms-3\b0389fa7cbcb973eb70356eb385c55ee\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:5-73
+37-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\AnasXMahde\.gradle\caches\transforms-3\b0389fa7cbcb973eb70356eb385c55ee\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:22-70
+38    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+38-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\AnasXMahde\.gradle\caches\transforms-3\b0389fa7cbcb973eb70356eb385c55ee\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:5-82
+38-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\AnasXMahde\.gradle\caches\transforms-3\b0389fa7cbcb973eb70356eb385c55ee\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:22-79
+39    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+39-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\AnasXMahde\.gradle\caches\transforms-3\b0389fa7cbcb973eb70356eb385c55ee\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:5-83
+39-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\AnasXMahde\.gradle\caches\transforms-3\b0389fa7cbcb973eb70356eb385c55ee\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:22-80
+40    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+40-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\AnasXMahde\.gradle\caches\transforms-3\b0389fa7cbcb973eb70356eb385c55ee\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:5-88
+40-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\AnasXMahde\.gradle\caches\transforms-3\b0389fa7cbcb973eb70356eb385c55ee\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:22-85
+41    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+41-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\AnasXMahde\.gradle\caches\transforms-3\b0389fa7cbcb973eb70356eb385c55ee\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:5-89
+41-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\AnasXMahde\.gradle\caches\transforms-3\b0389fa7cbcb973eb70356eb385c55ee\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:22-86
+42
+43    <application
+44        android:name="android.app.Application"
+45        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+45-->[androidx.core:core:1.8.0] C:\Users\AnasXMahde\.gradle\caches\transforms-3\2fa18b2f544a798470f6ba6d29f55f60\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+46        android:debuggable="true"
+47        android:icon="@mipmap/ic_launcher"
+48        android:label="notfications_local" >
+49        <activity
+50            android:name="com.example.notfications_local.MainActivity"
+51            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+52            android:exported="true"
+53            android:hardwareAccelerated="true"
+54            android:launchMode="singleTop"
+55            android:theme="@style/LaunchTheme"
+56            android:windowSoftInputMode="adjustResize" >
+57
+58            <!--
+59                 Specifies an Android theme to apply to this Activity as soon as
+60                 the Android process has started. This theme is visible to the user
+61                 while the Flutter UI initializes. After that, this theme continues
+62                 to determine the Window background behind the Flutter UI.
+63            -->
+64            <meta-data
+65                android:name="io.flutter.embedding.android.NormalTheme"
+66                android:resource="@style/NormalTheme" />
+67
+68            <intent-filter>
+69                <action android:name="android.intent.action.MAIN" />
+70
+71                <category android:name="android.intent.category.LAUNCHER" />
+72            </intent-filter>
+73        </activity>
+74        <!--
+75             Don't delete the meta-data below.
+76             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+77        -->
+78        <meta-data
+79            android:name="flutterEmbedding"
+80            android:value="2" />
+81
+82        <receiver
+82-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-17:39
+83            android:name="me.carda.awesome_notifications.DartNotificationActionReceiver"
+83-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-89
+84            android:exported="true" />
+84-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-36
+85        <receiver
+85-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-20:39
+86            android:name="me.carda.awesome_notifications.DartDismissedNotificationReceiver"
+86-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-92
+87            android:exported="true" />
+87-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-36
+88        <receiver
+88-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-23:39
+89            android:name="me.carda.awesome_notifications.DartScheduledNotificationReceiver"
+89-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-92
+90            android:exported="true" />
+90-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-36
+91        <receiver
+91-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:24:9-38:20
+92            android:name="me.carda.awesome_notifications.DartRefreshSchedulesReceiver"
+92-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-87
+93            android:enabled="true"
+93-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-35
+94            android:exported="true" >
+94-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-36
+95            <intent-filter>
+95-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-37:29
+96                <category android:name="android.intent.category.DEFAULT" />
+96-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-76
+96-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:27-73
+97
+98                <action android:name="android.intent.action.BOOT_COMPLETED" />
+98-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:31:17-79
+98-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:31:25-76
+99                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+99-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:32:17-86
+99-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:32:25-83
+100                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+100-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:33:17-84
+100-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:33:25-81
+101                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+101-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:34:17-82
+101-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:34:25-79
+102                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+102-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:35:17-82
+102-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:35:25-79
+103                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
+103-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:36:17-107
+103-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:36:25-104
+104            </intent-filter>
+105        </receiver>
+106
+107        <service
+107-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:40:9-43:72
+108            android:name="me.carda.awesome_notifications.DartBackgroundService"
+108-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-80
+109            android:exported="false"
+109-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-37
+110            android:permission="android.permission.BIND_JOB_SERVICE" />
+110-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-69
+111        <service
+111-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:44:9-49:43
+112            android:name="me.carda.awesome_notifications.core.services.ForegroundService"
+112-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-90
+113            android:enabled="true"
+113-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-35
+114            android:exported="false"
+114-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-37
+115            android:foregroundServiceType="phoneCall"
+115-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:48:13-54
+116            android:stopWithTask="true" />
+116-->[:awesome_notifications] C:\Users\AnasXMahde\AndroidStudioProjects\notfications_local\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:49:13-40
+117
+118        <uses-library
+118-->[androidx.window:window:1.0.0-beta04] C:\Users\AnasXMahde\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+119            android:name="androidx.window.extensions"
+119-->[androidx.window:window:1.0.0-beta04] C:\Users\AnasXMahde\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+120            android:required="false" />
+120-->[androidx.window:window:1.0.0-beta04] C:\Users\AnasXMahde\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+121        <uses-library
+121-->[androidx.window:window:1.0.0-beta04] C:\Users\AnasXMahde\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+122            android:name="androidx.window.sidecar"
+122-->[androidx.window:window:1.0.0-beta04] C:\Users\AnasXMahde\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+123            android:required="false" />
+123-->[androidx.window:window:1.0.0-beta04] C:\Users\AnasXMahde\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+124
+125        <provider
+125-->[androidx.emoji2:emoji2:1.2.0] C:\Users\AnasXMahde\.gradle\caches\transforms-3\e04bc3769bedd8dd6f8ca688986b0355\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+126            android:name="androidx.startup.InitializationProvider"
+126-->[androidx.emoji2:emoji2:1.2.0] C:\Users\AnasXMahde\.gradle\caches\transforms-3\e04bc3769bedd8dd6f8ca688986b0355\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+127            android:authorities="com.example.notfications_local.androidx-startup"
+127-->[androidx.emoji2:emoji2:1.2.0] C:\Users\AnasXMahde\.gradle\caches\transforms-3\e04bc3769bedd8dd6f8ca688986b0355\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+128            android:exported="false" >
+128-->[androidx.emoji2:emoji2:1.2.0] C:\Users\AnasXMahde\.gradle\caches\transforms-3\e04bc3769bedd8dd6f8ca688986b0355\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+129            <meta-data
+129-->[androidx.emoji2:emoji2:1.2.0] C:\Users\AnasXMahde\.gradle\caches\transforms-3\e04bc3769bedd8dd6f8ca688986b0355\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+130                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+130-->[androidx.emoji2:emoji2:1.2.0] C:\Users\AnasXMahde\.gradle\caches\transforms-3\e04bc3769bedd8dd6f8ca688986b0355\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+131                android:value="androidx.startup" />
+131-->[androidx.emoji2:emoji2:1.2.0] C:\Users\AnasXMahde\.gradle\caches\transforms-3\e04bc3769bedd8dd6f8ca688986b0355\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+132            <meta-data
+132-->[androidx.lifecycle:lifecycle-process:2.5.1] C:\Users\AnasXMahde\.gradle\caches\transforms-3\8a80d508033fedd67158c92cfcf77311\transformed\jetified-lifecycle-process-2.5.1\AndroidManifest.xml:31:13-33:52
+133                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+133-->[androidx.lifecycle:lifecycle-process:2.5.1] C:\Users\AnasXMahde\.gradle\caches\transforms-3\8a80d508033fedd67158c92cfcf77311\transformed\jetified-lifecycle-process-2.5.1\AndroidManifest.xml:32:17-78
+134                android:value="androidx.startup" />
+134-->[androidx.lifecycle:lifecycle-process:2.5.1] C:\Users\AnasXMahde\.gradle\caches\transforms-3\8a80d508033fedd67158c92cfcf77311\transformed\jetified-lifecycle-process-2.5.1\AndroidManifest.xml:33:17-49
+135        </provider>
+136    </application>
+137
+138</manifest>
